@@ -1,4 +1,5 @@
 FROM python:latest
-LABEL Maintainer="callmeaxis"
 
-CMD [ "python" , "./main.py" ]
+RUN apt-get update
+
+CMD ["python", "-O", "main.py"]
