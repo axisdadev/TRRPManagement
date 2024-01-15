@@ -1,6 +1,6 @@
 import hikari, lightbulb, time, pathlib
 
-secret = "MTEyNjUzMjU1MTA2Mjg1OTkxOA.GCBXA-.jYvbk2QtH_RaX-Ezhgmmz3ro0qT-FX5GNUnbJ0"
+secret = ""
 
 bot = lightbulb.BotApp(token=secret,intents=hikari.Intents.ALL, prefix="-")
 
